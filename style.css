@@ -7,6 +7,6 @@
 .career-img1, .career-img2, .career-img3, .test {
     display: flex;
     border: 1px solid black;
-    margin: 0%
-    width: 100%;
+    /* margin: 0% */
+    /* width: 100%; */
 }
