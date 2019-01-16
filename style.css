@@ -1,0 +1,12 @@
+.career-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.career-img1, .career-img2, .career-img3, .test {
+    display: flex;
+    border: 1px solid black;
+    margin: 0%
+    width: 100%;
+}
