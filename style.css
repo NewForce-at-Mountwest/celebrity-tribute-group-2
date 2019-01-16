@@ -6,4 +6,15 @@
 
 h1 {
     color: blue;
+
+.bg-orange{
+    background-color: #fcab41;
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
 }
