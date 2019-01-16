@@ -10,3 +10,15 @@
     /* margin: 0% */
     /* width: 100%; */
 }
+
+.bg-orange{
+    background-color: #fcab41;
+}
+
+.nav-link{
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-brand{
+    font-family: 'Lato', sans-serif;
+}
