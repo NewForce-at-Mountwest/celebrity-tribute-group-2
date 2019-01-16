@@ -1,0 +1,9 @@
+.family-card {
+    display: flex;
+    justify-content: row;
+    width: 30vw;
+}
+
+h1 {
+    color: blue;
+}
