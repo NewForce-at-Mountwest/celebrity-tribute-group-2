@@ -74,7 +74,9 @@ body {
 }
 
 .logo2{
-    width: 150px;
+    width: 300px;
+    display: inline-flex;
+    margin: 35px;
 }
 
 h1{
