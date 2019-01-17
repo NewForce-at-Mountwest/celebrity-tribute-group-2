@@ -3,8 +3,44 @@ body{
 }
 
 /* Header */
+
+.personal-body {
+    text-align: center;
+}
+
+.personal-body_header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.personal-body_birth {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.personal-body_adult {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.personal-body_family_header {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.personal-body_img {
+    height: 428px;
+    width: 427px;
+}
+
+
+
 .bg-orange{
     background-color: #fcab41;
+}
+
+.bg-pink{
+    background-color: #fff2f9;
 }
 
 .nav-link{
@@ -37,7 +73,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* justify-content: space-around; */
 }
 
 .career-ul, .career-h2 {
@@ -46,3 +81,23 @@ body{
 
 
 /* END OF CAREER STYLE */
+
+/* FOOTER */
+
+.footer{
+    background-color: #fcab41;
+    display: flex;
+    justify-content: space-evenly;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}
+
+.color-black{
+    color: black;
+}
+
+.color-grey{
+    color: #8a8a8a;
+}
