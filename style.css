@@ -29,15 +29,18 @@ body{
 }
 .index-alias, .origin-location, .collab-scroll{
     height: 15vw;
-    justify-content: center;
+    justify-content: center !important;
+    align-content: center;
     }
 .or-heading{
     margin: 2em;
     padding: 2em;
-    align-self: center;
+    align-items: center !important;
 }
 .origin-location{
     flex-direction: column;
+    background-attachment: fixed;
+    background: url("chicago.jpg");
 }
 .origin-location.pic{
     width: 100vw;
