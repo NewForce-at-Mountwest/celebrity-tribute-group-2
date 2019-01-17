@@ -6,15 +6,15 @@ body{
 }
 .index-main-photo{
     background-image: url("kaynemainimage.jpg");
-    /* Full height */
     height: 85vh; 
 
-  /* Create the parallax scrolling effect */
+  /* Creates parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    display: flex;
+  /* text overlay   */
+  display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -28,23 +28,24 @@ body{
     font-stretch: expanded;
 }
 .index-alias, .origin-location, .collab-scroll{
-    height: 15vw;
-    justify-content: center !important;
-    align-content: center;
+    height: 35em;
+    align-self: center;
     }
 .or-heading{
     margin: 2em;
-    padding: 2em;
-    align-items: center !important;
+    /* padding: 2em; */
+    align-self: center !important;
+    text-align: center !important;
 }
-.origin-location{
-    flex-direction: column;
+/* .origin-location{
     background-attachment: fixed;
     background: url("chicago.jpg");
-}
+} */
 .origin-location.pic{
     width: 100vw;
 }
+
+/* Nick's style */
 .bg-orange{
     background-color: #fcab41;
 }
