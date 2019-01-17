@@ -8,36 +8,78 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="personalstyle.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <a class="navbar-brand" href="#">Kanye West</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="personal.html">Personal Life</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="newsfeed.html">Newsfeed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="extras.html">Additional Information</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     <section class="personal-body">
-        <article class="personal-body_birth">
-            <h1>Born:</h1>
+        <h1 class="personal-body_header">Personal Life</h1>
+        <article class="personal-body_birth">            
+            <h2>Born:</h2>
             <p>Kanye Omari West</p>
             <p>June 8, 1977</p>
             <p>Atlanta, Georgia</p>
         </article>
         <article class="personal-body_adult">
-            <h1>Adult life</h1>
-            <p>Kanye currently lives part-time in Hidden Hills, California, with an additional residence in Chicago, Illinois</p>
+            <h2>Adult life</h2>
+            <p>Kanye currently lives part-time in Hidden Hills, California, with an additional residence in Chicago, Illinois.</p>
         </article>
         <article class="personal-body_family">
-            <div class="card family-card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Donda_West.jpg/170px-Donda_West.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Donda West, Mother</p>
+            <h2 class="personal-body_family_header">Family</h2>
+            <div class="card-deck">
+                <div class="card">
+                  <img class="card-img-top personal-body_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Donda_West.jpg/170px-Donda_West.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Donda West</h5>
+                    <p class="card-text">Kanye West's Mother</p>
+                    <p class="card-text"><small class="text-muted">1949-2007</small></p>
+                  </div>
                 </div>
-            <div class="card family-card" style="width: 18rem;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kim_Kardashian_2%2C_2012.jpg/140px-Kim_Kardashian_2%2C_2012.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Kim Kardashian, wife</p>
+                <div class="card">
+                  <img class="card-img-top personal-body_img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kim_Kardashian_2%2C_2012.jpg/140px-Kim_Kardashian_2%2C_2012.jpg" class="card-img-top" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Kim Kardashian</h5>
+                    <p class="card-text">Kanye West's Wife</p>
+                    <p class="card-text"><small class="text-muted">1980-current</small></p>
+                  </div>
                 </div>
-              </div>
-              </div>
-              <div class="card family-card" style="width: 18rem;">
-                <img src="https://media.wmagazine.com/photos/5b88886513fc844e32a15490/4:3/w_1536/kanye%2520west%2520north%2520west%2520designer%2520story.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Kanye West with daughter, North West</p>
+                <div class="card">
+                  <img class="card-img-top personal-body_img" src="https://media.wmagazine.com/photos/5b88886513fc844e32a15490/4:3/w_1536/kanye%2520west%2520north%2520west%2520designer%2520story.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">North West</h5>
+                    <p class="card-text">Kanye West pictured with his daughter, North West</p>
+                    <p class="card-text"><small class="text-muted">2013-current</small></p>
+                  </div>
                 </div>
               </div>
         </article>
