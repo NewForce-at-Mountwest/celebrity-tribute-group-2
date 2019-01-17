@@ -99,6 +99,27 @@ body {
     width: 427px;
 }
 
+.personal-body-title_image {
+    background-image: url("https://static.spin.com/files/2016/11/kanye-rant-beyonce-jay-z-1479659522-640x451.jpg");
+    height: 85vh; 
+
+  /* Creates parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text overlay   */
+  display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.body-scroll{
+    display: flex;
+    flex-direction: column;
+
+}
+
 /* Nick's CSS */
 .bg-orange{
     background-color: #fcab41;
