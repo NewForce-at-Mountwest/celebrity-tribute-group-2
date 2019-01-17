@@ -165,7 +165,8 @@ body {
     background-color: #fcab41;
     display: flex;
     justify-content: space-evenly;
-    position:fixed;
+/* This messes with screen width? \/ */
+    position: fixed;
     left:0px;
     bottom:0px;
     width:100%;
@@ -179,6 +180,6 @@ body {
     color: #8a8a8a;
 }
 
-.carousel{
-    margin-bottom: 2%;
+.w-75{
+    width: 75% !important;
 }
