@@ -2,10 +2,24 @@
     background-color: #fcab41;
 }
 
+.bg-pink{
+    background-color: #fff2f9;
+}
+
 .nav-link{
     font-family: 'Lato', sans-serif;
 }
 
 .navbar-brand{
     font-family: 'Lato', sans-serif;
+}
+
+.footer{
+    background-color: #fcab41;
+    display: flex;
+    justify-content: space-evenly;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
