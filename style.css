@@ -88,6 +88,11 @@ body{
 .career-attempt-1 {
     padding: 1%;
 }
+.career-list-2, .career-h2-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
 
 /* END OF CAREER STYLE */
 
