@@ -1,5 +1,6 @@
 body{
     background-color: #fff2f9;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -55,7 +56,7 @@ body{
 
 /* CAREER STYLE */
 .career-img-size {
-    width: 428px;
+    width: 420px;
     height: 427px;
 }
 
@@ -79,6 +80,14 @@ body{
     font-family: 'Lato', sans-serif;    
 }
 
+.career-h1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.career-attempt-1 {
+    padding: 1%;
+}
 
 /* END OF CAREER STYLE */
 
