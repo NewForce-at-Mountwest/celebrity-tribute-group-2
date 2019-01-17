@@ -165,7 +165,6 @@ body {
     background-color: #fcab41;
     display: flex;
     justify-content: space-evenly;
-/* This messes with screen width? \/ */
     position: fixed;
     left:0px;
     bottom:0px;
@@ -181,5 +180,21 @@ body {
 }
 
 .w-75{
+    width: 100% !important;
+}
+
+.d-block{
+    display: flex !important;
+    justify-content: center;
+}
+
+.carousel-item{
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-inner{
     width: 75% !important;
+    margin: 0 auto;
 }
