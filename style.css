@@ -9,3 +9,26 @@
 .navbar-brand{
     font-family: 'Lato', sans-serif;
 }
+
+.test{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.bg-pink{
+    background-color: #fff2f9;
+}
+
+.test2{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo1{
+    width: 150px;
+    display: inline-flex;
+}
+
+.logos{
+    margin: 
+}
