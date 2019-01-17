@@ -28,7 +28,7 @@ body{
     font-stretch: expanded;
 }
 .index-alias, .origin-location, .collab-scroll{
-    height: 35em;
+    height: auto;
     align-self: center;
     }
 .or-heading{
@@ -37,6 +37,22 @@ body{
     align-self: center !important;
     text-align: center !important;
 }
+.index-card{
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-items: center;
+   }
+.index-card-img {
+    object-fit: cover;
+    min-height: 100%;
+
+}
+.index-card-body{
+    margin-bottom: 1rem !important;
+}
+/* .index-card-group {
+   height: auto !important; 
+} */
 /* .origin-location{
     background-attachment: fixed;
     background: url("chicago.jpg");
