@@ -1,16 +1,8 @@
-.career-works {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+body{
+    background-color: #fff2f9;
 }
 
-.career-img1, .career-img2, .career-img3, .test {
-    display: flex;
-    border: 1px solid black;
-    /* margin: 0% */
-    /* width: 100%; */
-}
-
+/* Header */
 .bg-orange{
     background-color: #fcab41;
 }
@@ -21,4 +13,28 @@
 
 .navbar-brand{
     font-family: 'Lato', sans-serif;
+}
+/* End Header */
+
+
+/* Sizing for Images / centering h */
+.career-img-size {
+    width: 428px;
+    height: 427px;
+}
+
+.career-h1, .career-h5 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.career-list-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.career-ul, .career-h2 {
+    
 }
