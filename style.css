@@ -183,7 +183,7 @@ body {
 .career-list-main {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .career-ul, .career-h2 {
@@ -200,9 +200,6 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 1%;
-}
-.career-h2-2, .career-h2 {
-    text-decoration: underline;
 }
 
 /* END OF CAREER STYLE */
