@@ -1,9 +1,74 @@
-body{
-    background-color: #fff2f9;
+
+/* Michelle's index */
+h1, h2, h3, {
+    font-family: 'Lato', sans-serif;
+}
+
+.index-main-photo{
+    background-image: url("kaynemainimage.jpg");
+    height: 85vh; 
+
+  /* Creates parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* text overlay   */
+  display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.body-scroll{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: #fff2f9;
+    font-size: 10rem;
+    font-stretch: expanded;
+}
+.index-alias, .origin-location, .collab-scroll{
+    height: auto;
+    align-self: center;
+    }
+.or-heading{
+    margin: 2em;
+    /* padding: 2em; */
+    align-self: center !important;
+    text-align: center !important;
+}
+.index-card{
+    margin-bottom: 0.5em;
+    justify-content: center;
+    align-items: center;
+   }
+.index-card-img {
+    object-fit: cover;
+    min-height: 100%;
+
+}
+.index-card-body{
+    margin-bottom: 1rem !important;
+}
+/* .index-card-group {
+   height: auto !important; 
+} */
+/* .origin-location{
+    background-attachment: fixed;
+    background: url("chicago.jpg");
+} */
+.origin-location.pic{
+    width: 100vw;
+}
+
+/* Sable's style */
+
+body {
     font-family: 'Lato', sans-serif;
 }
 
 /* Header */
+
 
 .personal-body {
     text-align: center;
@@ -34,9 +99,8 @@ body{
     width: 427px;
 }
 
-
-
-.bg-orange{
+/* Nick's CSS */
+h.bg-orange{
     background-color: #fcab41;
 }
 
