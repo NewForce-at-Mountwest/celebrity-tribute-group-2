@@ -1,7 +1,9 @@
-body {
-    background-color: #fff2F9;
+body{
+    background-color: #fff2f9;
     font-family: 'Lato', sans-serif;
 }
+
+/* Header */
 
 .personal-body {
     text-align: center;
@@ -49,6 +51,52 @@ body {
 .navbar-brand{
     font-family: 'Lato', sans-serif;
 }
+/* End Header */
+
+
+/* CAREER STYLE */
+.career-img-size {
+    width: 420px;
+    height: 427px;
+}
+
+.career-h1, .career-h5 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.career-h5{
+    font-size: 30px;
+}
+
+.career-list-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.career-ul, .career-h2 {
+    font-family: 'Lato', sans-serif;    
+}
+
+.career-h1 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.career-attempt-1 {
+    padding: 1%;
+}
+.career-list-2, .career-h2-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+/* END OF CAREER STYLE */
+
+/* FOOTER */
 
 .footer{
     background-color: #fcab41;
