@@ -17,7 +17,7 @@ body{
 /* End Header */
 
 
-/* Sizing for Images / centering h */
+/* CAREER STYLE */
 .career-img-size {
     width: 428px;
     height: 427px;
@@ -29,12 +29,20 @@ body{
 
 }
 
+.career-h5{
+    font-size: 30px;
+}
+
 .career-list-main {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* justify-content: space-around; */
 }
 
 .career-ul, .career-h2 {
     font-family: 'Lato', sans-serif;    
 }
+
+
+/* END OF CAREER STYLE */
