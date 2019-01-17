@@ -41,13 +41,19 @@ h1, h2, h3, {
     margin-bottom: 0.5em;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
    }
 .index-card-img {
     object-fit: cover;
+    min-width: 100%;
     min-height: 100%;
-
+    }
+    
+.width-fix{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
-.index-card-body{
+/* .index-card-body{
     margin-bottom: 1rem !important;
 }
 /* .index-card-group {
@@ -56,9 +62,9 @@ h1, h2, h3, {
 /* .origin-location{
     background-attachment: fixed;
     background: url("chicago.jpg");
-} */
-.origin-location.pic{
-    width: 100vw;
+} */ 
+.origin-location-pic{
+    width: 97vw;
 }
 
 /* Sable's style */
@@ -95,8 +101,9 @@ body {
 }
 
 .personal-body_img {
-    height: 428px;
-    width: 427px;
+    object-fit: cover;
+    height: 427px;
+    
 }
 
 .personal-body-title_image {
@@ -187,10 +194,10 @@ body {
     background-color: #fcab41;
     display: flex;
     justify-content: space-evenly;
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    width:100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100vw;
 }
 
 .color-black{
