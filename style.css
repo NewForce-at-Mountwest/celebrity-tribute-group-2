@@ -39,7 +39,9 @@ body{
 .origin-location{
     flex-direction: column;
 }
-
+.origin-location.pic{
+    width: 100vw;
+}
 .bg-orange{
     background-color: #fcab41;
 }
