@@ -74,6 +74,10 @@ body {
     padding-top: 50px;
 }
 
+.padding{
+    padding-top: 15px;
+}
+
 /* Header */
 
 
@@ -284,6 +288,7 @@ h1{
 .carousel-inner{
     width: 75% !important;
     margin: 0 auto;
+    background-color: #fff2f9;
 }
 
 .tour{
@@ -310,7 +315,6 @@ a:hover{
 .extras{
     background-color: #fcab41;
     opacity: 0.6;
-
 }
 
 .logo3{
