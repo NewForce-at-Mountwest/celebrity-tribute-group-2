@@ -252,9 +252,9 @@ h1{
     display: flex;
     justify-content: space-evenly;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: 100vw;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
 
 .color-black{
@@ -263,6 +263,26 @@ h1{
 
 .color-grey{
     color: #8a8a8a;
+}
+
+.w-75{
+    width: 100% !important;
+}
+
+.d-block{
+    display: flex !important;
+    justify-content: center;
+}
+
+.carousel-item{
+    margin: 0 auto;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-inner{
+    width: 75% !important;
+    margin: 0 auto;
 }
 
 .tour{
