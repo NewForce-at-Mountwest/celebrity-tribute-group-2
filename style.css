@@ -227,19 +227,17 @@ body {
     padding-left: 550px;
 }
 
-.logo1{
+.music{
     width: 150px;
     display: inline-flex;
     margin: 35px;
     padding-bottom: 50px;
-    border: solid black 1px;
 }
 
-.logo2{
+.business{
     width: 275px;
     display: inline-flex;
     margin: 80px;
-    border: solid black 1px;
 }
 
 h1{
@@ -313,9 +311,8 @@ a:hover{
 
 }
 
-.logo3{
+.resource{
     width: 150px;
     display: inline-flex;
     margin: 80px;
-    border: solid black 1px;
 }
