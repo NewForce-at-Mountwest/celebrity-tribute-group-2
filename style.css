@@ -71,16 +71,20 @@ h1, h2, h3, {
 
 body {
     font-family: 'Lato', sans-serif;
+    /* Keeps Navbar from covering page content */
     padding-top: 50px;
 }
 
+/* Carousel Padding */
 .padding{
     padding-top: 15px;
 }
 
 /* Header */
 
+/* Personal Page */
 
+/* Headers and text center / padding */
 .personal-body {
     text-align: center;
 }
@@ -105,12 +109,14 @@ body {
     padding-bottom: 1em;
 }
 
+/* Card image resize */
 .personal-body_img {
     object-fit: cover;
     height: 427px;
     
 }
 
+/* Cover image */
 .personal-body-title_image {
     background-image: url("https://static.spin.com/files/2016/11/kanye-rant-beyonce-jay-z-1479659522-640x451.jpg");
     height: 85vh; 
@@ -192,6 +198,15 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.career-list {
+    width: 429px;
+    text-align: center;
+}
+
+.career-li {
+    list-style-position: inside;
+}
+
 .career-ul, .career-h2 {
     font-family: 'Lato', sans-serif; 
 }
@@ -339,4 +354,3 @@ a:hover{
     transition: transform .6s ease-in-out;
     transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
-
