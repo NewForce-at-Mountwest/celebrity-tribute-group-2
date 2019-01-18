@@ -1,9 +1,9 @@
 
-/* Michelle's index */
+/* Styles set for the home page/index.html */
 h1, h2, h3, {
     font-family: 'Lato', sans-serif;
 }
-
+/* creates hero image with font overlay */
 .index-main-photo{
     background-image: url("imgsrc/kaynemainimage.jpg");
     height: 85vh; 
@@ -18,6 +18,8 @@ h1, h2, h3, {
     justify-content: flex-end;
     align-items: flex-end;
 }
+/* style for the body, creates center aligned stacking items */
+
 .body-scroll{
     display: flex;
     flex-direction: column;
@@ -33,7 +35,7 @@ h1, h2, h3, {
     }
 .or-heading{
     margin: 2em;
-    /* padding: 2em; */
+    /* had to override parent container style */
     align-self: center !important;
     text-align: center !important;
 }
@@ -44,27 +46,21 @@ h1, h2, h3, {
     overflow: hidden;
    }
 .index-card-img {
+    /* this allows the image to stretch to fill the container without distortion and sizing issues */
     object-fit: cover;
     min-width: 100%;
     min-height: 100%;
     }
     
 .width-fix{
+    /* had to override bootstrap card margins so that the cards do not fall off the page */
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
-/* .index-card-body{
-    margin-bottom: 1rem !important;
-}
-/* .index-card-group {
-   height: auto !important; 
-} */
-/* .origin-location{
-    background-attachment: fixed;
-    background: url("chicago.jpg");
-} */ 
+
 .origin-location-pic{
     width: 97vw;
+    /* set lower so that the image does not fall off the page */
 }
 
 /* Sable's style */
