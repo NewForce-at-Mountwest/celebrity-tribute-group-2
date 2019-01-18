@@ -232,12 +232,14 @@ body {
     display: inline-flex;
     margin: 35px;
     padding-bottom: 50px;
+    border: solid black 1px;
 }
 
 .logo2{
     width: 275px;
     display: inline-flex;
     margin: 80px;
+    border: solid black 1px;
 }
 
 h1{
@@ -295,4 +297,5 @@ a:hover{
     width: 150px;
     display: inline-flex;
     margin: 80px;
+    border: solid black 1px;
 }
