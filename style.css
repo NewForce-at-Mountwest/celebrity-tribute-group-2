@@ -71,6 +71,7 @@ h1, h2, h3, {
 
 body {
     font-family: 'Lato', sans-serif;
+    padding-top: 50px;
 }
 
 /* Header */
@@ -139,6 +140,7 @@ body {
 .nav-link{
     font-family: 'Lato', sans-serif;
 }
+
 
 .navbar-brand{
     font-family: 'Lato', sans-serif;
