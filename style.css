@@ -5,7 +5,7 @@ h1, h2, h3, {
 }
 
 .index-main-photo{
-    background-image: url("kaynemainimage.jpg");
+    background-image: url("imgsrc/kaynemainimage.jpg");
     height: 85vh; 
 
   /* Creates parallax scrolling effect */
