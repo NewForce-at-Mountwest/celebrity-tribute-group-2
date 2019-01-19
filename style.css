@@ -40,7 +40,7 @@
 
 
 
-/* Michelle's index */
+/* Styles set for the home page/index.html */
 h1, h2, h3, {
     font-family: 'Lato', sans-serif;
 }
@@ -59,6 +59,7 @@ h1, h2, h3, {
     justify-content: flex-end;
     align-items: flex-end;
 }
+/* style for the body, creates center aligned stacking items */
 .body-scroll{
     display: flex;
     flex-direction: column;
@@ -74,7 +75,7 @@ h1, h2, h3, {
     }
 .or-heading{
     margin: 2em;
-    /* padding: 2em; */
+     /* had to override parent container style */
     align-self: center !important;
     text-align: center !important;
 }
@@ -85,27 +86,21 @@ h1, h2, h3, {
     overflow: hidden;
    }
 .index-card-img {
+    /* this allows the image to stretch to fill the container without distortion and sizing issues */
     object-fit: cover;
     min-width: 100%;
     min-height: 100%;
     }
     
 .width-fix{
+     /* had to override bootstrap card margins so that the cards do not fall off the page */
     margin-right: 0 !important;
     margin-left: 0 !important;
 }
-/* .index-card-body{
-    margin-bottom: 1rem !important;
-}
-/* .index-card-group {
-   height: auto !important; 
-} */
-/* .origin-location{
-    background-attachment: fixed;
-    background: url("chicago.jpg");
-} */ 
+
 .origin-location-pic{
     width: 97vw;
+    /* set lower so that the image does not fall off the page */
 }
 
 /* Sable's style */
@@ -230,9 +225,7 @@ body {
 .career-h5{
     font-size: 30px;
 }
-/* .card {
-    background-color: #fcab41;
-} */
+
 .career-list-main {
     display: flex;
     flex-direction: row;
@@ -256,9 +249,7 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
 }
-/* .career-attempt-1 {
-    padding: 1%;
-} */
+
 .career-list-2, .career-h2-2{
     display: flex;
     justify-content: center;
@@ -268,8 +259,43 @@ body {
 /* END OF CAREER STYLE */
 
 /* FOOTER */
+.music{
+    width: 150px;
+    display: inline-flex;
+    margin: 35px;
+    padding-bottom: 50px;
+}
 
-.bg-pink{
+.music:hover{
+    -webkit-filter: invert(100%);
+    -webkit-transform:scale(1.3);
+transform:scale(1.3);
+-webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+
+.business{
+    width: 275px;
+    display: inline-flex;
+    margin: 80px;
+}
+
+.business:hover{
+    -webkit-filter: invert(100%);
+    -webkit-transform:scale(1.3);
+transform:scale(1.3);
+-webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
+}
+
+.info{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-size: 4em;
+}
+    
+
+/* .bg-pink{
     background-color: #fff2f9;
 }
 
@@ -291,7 +317,7 @@ h1{
     text-align: center;
     font-family: 'lato', sans-serif;
     font-size: 4em;
-}
+} */
     
 .footer{
     background-color: #fcab41;
@@ -335,13 +361,20 @@ h1{
     padding-left: 370px;
 }
 
-a{
+/* a{
     color: black;
 }
 
 a:hover{
     text-decoration-line: none;
     color: grey;
+} */
+.tour:hover{
+    -webkit-filter: invert(100%);
+    -webkit-transform:scale(1.3);
+transform:scale(1.3);-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+
 }
 
 .bgimg{
@@ -353,14 +386,30 @@ a:hover{
 }
 
 .extras{
-    background-color: #fcab41;
-    opacity: 0.6;
+    background-color: rgba(252,171,65, 0.3);
+    /* opacity: 0.6; */
 }
 
-.logo3{
+.ontop{
+    position: relative;
+}
+
+.resource{
     width: 150px;
     display: inline-flex;
     margin: 80px;
+}
+/* .logo3{
+    width: 150px;
+    display: inline-flex;
+    margin: 80px;
+} */
+.resource:hover{
+    -webkit-filter: invert(100%);
+    -webkit-transform:scale(1.3);
+transform:scale(1.3);
+-webkit-transition: all 0.7s ease;
+ transition: all 0.7s ease;
 }
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
@@ -376,9 +425,29 @@ a:hover{
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+/* Makes the slide transition on the carousel animated */
     transition: -webkit-transform .6s ease-in-out;
     transition: transform .6s ease-in-out;
     transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    background-color: #fcab41;
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 12.5%;
+    color: #fff2f9;
+    text-align: center;
+    opacity: .5;
+    transition: opacity 1s ease;
 }
 
 
